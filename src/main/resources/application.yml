@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/oa?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+  activiti:
+    check-process-definitions: true
+    job-executor-activate: true
+#    process-definition-location-suffixes: /processes/**/*
